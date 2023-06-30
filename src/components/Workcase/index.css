@@ -1,0 +1,45 @@
+.workcase{
+    background-image: url('../../assets/workcasebg.jpg');
+    width: 100%;
+    height: 55vh;
+    text-align: center;
+    padding: 8vh;
+}
+
+.workcase .head{
+    color: #EFA14C;
+    font-size: 30px;
+}
+
+.workcase .heading{
+    color: white;
+    padding-top: 4vh;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.workcase .tag{
+    padding-top: 3vh;
+    width:50%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+
+.workcase button{
+    margin-top: 20px;
+    background-color: transparent ;
+    font-size: 15px;
+    color: white ;
+    border: 2px solid white;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.workcase button:hover{
+    background-color: #EFA14C;
+    border: 2px solid #EFA14C;
+}

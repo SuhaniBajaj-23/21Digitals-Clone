@@ -1,0 +1,42 @@
+.rightside{
+    width: 75%;
+}
+
+.rightside .head{
+    color: #EFA14C;
+    font-size: 30px;
+}
+
+.rightside .heading{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.rightside .content{
+    font-size: 20px ;
+    padding-top: 20px;
+    color: white;
+}
+
+.rightside p{
+    padding-top: 15px;
+}
+
+.rightside button{
+    margin-top: 20px;
+    background-color: #0F1632 ;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.rightside button:hover{
+    background-color: #EFA14C;
+    border: 2px solid #EFA14C;
+}

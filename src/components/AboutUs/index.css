@@ -1,0 +1,24 @@
+.about{
+    background-image: url('../../assets/aboutusbg.jpg');
+    background-size: 100vw 100vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.about .left{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.about iframe{
+    width: 35vw;
+    height: 40vh;
+}
+
+.about .right{
+    width: 50%;
+    /* height: 50%; */
+    margin: auto;
+}

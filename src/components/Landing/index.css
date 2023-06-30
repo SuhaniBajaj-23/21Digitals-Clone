@@ -1,0 +1,29 @@
+.landing{
+    padding-top:98px;
+    height: 98vh ;
+    background-color: #15224D;
+    color: white;
+}
+
+.landing .whole{
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    padding: 10vw 0 7vw 0;
+}
+
+.landing .heading{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.landing .tag{
+    font-size: 30px;
+    padding-top: 3vh;
+
+}
+
+.landing .buttons{
+    display: inline-flex;
+    padding-top:5vh ;
+}

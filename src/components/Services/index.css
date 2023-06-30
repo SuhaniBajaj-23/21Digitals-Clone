@@ -1,0 +1,33 @@
+.services{
+    text-align: center;
+}
+
+.services .head{
+    color: #EFA14C;
+    font-size: 30px ;
+    padding-top: 7vh;
+}
+
+.services .heading{
+    color: #200251;
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 3vh;
+
+}
+
+.services .tag{
+    font-size: 20px;
+    padding-top: 3vh;
+    width: 50%;
+    margin: auto;
+}
+
+.service-cards{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
