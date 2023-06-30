@@ -1,0 +1,47 @@
+.blogCard .content{
+    padding: 10px;
+    color: #EFA14C;
+}
+
+.blogCard img{
+    object-fit: cover;
+    height: 150px;
+    width: 285px;
+    border-radius: 10px;
+}
+
+.blogCard .description{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.blogCard{
+    display: flex;
+    padding: 20px;
+}
+
+.blogCard:hover{
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.186); }
+
+.blogCard button{
+    margin-top: 10px;
+    background-color: transparent ;
+    font-size: 12px;
+    color: white ;
+    border: 2px solid white;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.blogCard button:hover{
+    background-color: #EFA14C;
+    border: 2px solid #EFA14C;
+}
+
+.blogCard img:hover{
+    scale: 1.05;
+}

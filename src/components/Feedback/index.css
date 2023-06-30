@@ -1,0 +1,38 @@
+.feedback .carousals{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow: hidden;
+    text-align: center;
+}
+
+.feedback{
+    text-align: center;
+    padding: 5vw;
+    
+}
+
+
+.feedback .head{
+    color: #111E47;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.feedback .heading{
+    color: #111E47;
+    font-size: 30px;
+    padding: 20px;
+    width: 35%;
+    margin: auto;
+    font-weight: 900;
+}
+
+.carousal-item{
+    /* height: 20rem; */
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39,0.575,0.565,1);
+}

@@ -1,0 +1,24 @@
+.carousal {
+    font-size: 15px;
+    width: 35%;
+    text-align: center;
+}
+
+.carousal .description{
+    color: #111E47;
+    padding: 3vw;
+}
+
+.carousal .name{
+    color: #111E47;
+    /* padding: 1rem; */
+}
+
+.carousal .position{
+    color: #7A7A7A;
+}
+
+.carousal img{
+    height: 100px;
+    width: 100px;
+}

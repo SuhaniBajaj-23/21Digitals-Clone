@@ -6,6 +6,12 @@ import Landing from './components/Landing';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Workcase from './components/Workcase';
+import Choose from './components/Choose';
+import Feedback from './components/Feedback';
+import Connect from './components/Connect';
+import Blog from './components/Blog';
+import Subscribe from './components/Subscribe';
+
 
 function App() {
     return (
@@ -18,6 +24,11 @@ function App() {
                 <AboutUs/>
                 <Services/>
                 <Workcase/>
+                <Choose/>
+                <Feedback/>
+                <Connect/>
+                <Blog/>
+                <Subscribe/>
               </>
             }
             ></Route>

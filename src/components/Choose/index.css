@@ -1,0 +1,39 @@
+.choose{
+    background-image: url('../../assets/choosebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding: 10vw;
+}
+
+.reasons{
+    display: grid;
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.choose .head{
+    color:#EFA14C ;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.choose .heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.choose .tag{
+    width: 65%;
+    margin: auto;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
