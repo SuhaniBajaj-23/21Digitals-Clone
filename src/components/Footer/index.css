@@ -1,0 +1,48 @@
+.footer{
+    background-color: #111E47;
+    color: white;
+    padding: 3vh;
+}
+
+.v2{
+    border-left: 1px solid rgba(217, 227, 217, 0.515);
+
+}
+
+.footer .upper{
+    display: flex;
+    padding: 20px;
+}
+
+.upper .upperleft{
+    width: 40%;
+    padding: 5vh;
+    font-size: 20px;
+}
+
+.upper .upperright{
+    width: 50%;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.upperleft .socials{
+    display: flex;
+}
+
+.socials img{
+    padding: 10px;
+}
+
+.upperright  p{
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+
+.footer .lower{
+    padding: 2vh 0 0 6vh;
+}

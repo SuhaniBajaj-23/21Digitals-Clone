@@ -11,6 +11,7 @@ import Feedback from './components/Feedback';
 import Connect from './components/Connect';
 import Blog from './components/Blog';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                 <Connect/>
                 <Blog/>
                 <Subscribe/>
+                <Footer/>
               </>
             }
             ></Route>

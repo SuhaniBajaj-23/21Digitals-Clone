@@ -1,0 +1,53 @@
+.subscribe{
+    display: flex;
+    padding: 5vh;
+}
+
+.subscribe .left{
+    width: 50%;
+}
+
+.subscribe .right{
+    margin: auto;
+}
+
+
+.input input{
+    font-size: 15px;
+    border: 2px solid rgb(233, 226, 226);
+    border-radius: 5px;
+    padding:10px;
+
+}
+
+.left .lower{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+}
+
+.left .heading{
+    font-size: 35px;
+    color: #111E47;
+    font-weight: 900;
+    width: 40%;
+    margin: auto;
+}
+
+.subscribe .Subbutton button{
+    border-radius: 5px;
+    background-color: #15224D;
+    padding:10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px;
+    
+
+}
+
+.subscribe button:hover{
+    background-color: #EFA14C;
+    border: 2px solid white;
+    cursor: pointer;
+}
