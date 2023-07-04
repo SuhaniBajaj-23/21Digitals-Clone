@@ -1,0 +1,20 @@
+.movingbox{
+    background-color: #111E47;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.movingbox img{
+    height: 50px;
+}
+
+.movingbox .number{
+    font-size: 25px;
+    font-weight: 900;
+    color: #EFA14C;
+    padding-top: 40px;
+}

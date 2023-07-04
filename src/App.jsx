@@ -12,13 +12,20 @@ import Connect from './components/Connect';
 import Blog from './components/Blog';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
+import AboutUsPage from './components/AboutUsPage';
+import WhoAreWe from './components/WhoAreWe';
+import CardRow from './components/CardRow';
+import Sponsers from './components/Sponsers';
+import Result from './components/Result';
+import Join from './components/Join';
+import Form from './components/Form';
 
 
 function App() {
     return (
         <>
           <Routes>
-            <Route path="/" element={
+            <Route exact path="/" element={
               <>
                 <Navbar/>
                 <Landing/>
@@ -31,6 +38,27 @@ function App() {
                 <Blog/>
                 <Subscribe/>
                 <Footer/>
+              </>
+            }
+            ></Route>
+            <Route exact path="/about" element={
+              <>
+              <Navbar/>
+              <AboutUsPage/>
+              <WhoAreWe/>
+              <CardRow/>
+              <Sponsers/>
+              <Result/>
+              <Join/>
+              <Footer/>
+              </>
+            }
+            ></Route>
+            <Route exact path="/contact" element={
+              <>
+              <Navbar/>
+              <Form/>
+              <Footer/>
               </>
             }
             ></Route>

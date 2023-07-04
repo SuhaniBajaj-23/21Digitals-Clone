@@ -1,0 +1,16 @@
+.sponsers{
+    background-color: #f6f3f3;
+    display: flex;
+    padding: 20px 180px;
+}
+
+.sponsers img{
+    height: 80px;
+    padding: 0 20px;
+}
+
+.sponsers .number{
+    padding-left: 100px;
+    font-size: 60px;
+    color: #111E47;
+}

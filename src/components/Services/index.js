@@ -6,7 +6,8 @@ import {FaPhotoVideo,FaFileCode} from "react-icons/fa";
 
 function Services (){
     return(
-     <div className="services">
+        <section id="services">
+     <div className="services" >
         <div className="head">
             Our Services
         </div>
@@ -25,6 +26,7 @@ function Services (){
             <ServiceCard icon=<MdOutlineAutoAwesomeMotion size={50}/> name="SEO" description="With our white-hat SEO techniques and latest SEO techniques, we can help you to increase the visibility of your website in search engines."/>
         </div>
      </div>
+     </section>
     );
 }
 

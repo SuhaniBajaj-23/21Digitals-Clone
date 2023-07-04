@@ -1,0 +1,19 @@
+.form{
+    background-image: url("../../assets/choosebg.jpg");
+    padding-top: 98px;
+    display: flex;
+}
+
+.form .heading{
+    color: #EFA14C;
+}
+
+
+.form .left{
+    color: white;
+    width: 50%;
+}
+
+.form .right{
+    width: 50%;
+}

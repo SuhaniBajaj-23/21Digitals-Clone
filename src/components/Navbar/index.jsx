@@ -1,7 +1,18 @@
 import { Link, NavLink } from "react-router-dom";
 import React from "react";
+import { Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import logo from "../../assets/logo.png";
+import Landing from "../Landing";
+import AboutUs from "../AboutUs";
+import Services from "../Services";
+import Workcase from "../Workcase";
+import Choose from "../Choose";
+import Feedback from "../Feedback";
+import Connect from "../Connect";
+import Blog from "../Blog";
+import Subscribe from "../Subscribe";
+import Footer from "..//Footer";
 
 // const Navbar = () =>{
 //     <div className='navBar'>
@@ -20,44 +31,69 @@ import logo from "../../assets/logo.png";
 
 function Navbar() {
   return (
-    <div className="navBar">
-      <Link className="logo" to="/">
-        <img src={logo} alt=""  className="logoLeft"/>
-      </Link>
-      <div className="nav-links">
-        <NavLink
-          exact
-          className="link"
-          to="/"
-          style={({ isActive }) => ({
-                color: isActive ? '#EFA14C' :'#fff',
+    // <Router>
+    <div className="page">
+      <div className="navBar">
+        <Link className="logo" to="/">
+          <img src={logo} alt="" className="logoLeft" />
+        </Link>
+        <div className="nav-links">
+          <NavLink
+            exact
+            className="link"
+            to="/"
+            style={({ isActive }) => ({
+              color: isActive ? "#EFA14C" : "#fff",
             })}
           >
-          <p> Home</p>
-        </NavLink>
-        <NavLink className="link" to="/about"
-        style={({ isActive }) => ({
-                color: isActive ? '#EFA14C' :'#fff',
-            })}>
-          <p>About Us</p>
-        </NavLink>
-        <NavLink className="link" to="/services" style={({ isActive }) => ({
-                color: isActive ? '#EFA14C' :'#fff',
-            })}>
-          <p> Services</p>
-        </NavLink>
-        <NavLink className="link" to="/contact" style={({ isActive }) => ({
-                color: isActive ? '#EFA14C' :'#fff',
-            })}>
-          <p> Contact Us</p>
-        </NavLink>
-        <NavLink className="link" to="/blogs" style={({ isActive }) => ({
-                color: isActive ? '#EFA14C' :'#fff',
-            })}>
-          <p> Blogs</p>
-        </NavLink>
+            <p> Home</p>
+          </NavLink>
+          <NavLink
+            className="link"
+            to="/about"
+            style={({ isActive }) => ({
+              color: isActive ? "#EFA14C" : "#fff",
+            })}
+          >
+            <p>About Us</p>
+          </NavLink>
+
+          <a href="#services" className="link">
+            Services
+          </a>
+          <NavLink
+            className="link"
+            to="/contact"
+            style={({ isActive }) => ({
+              color: isActive ? "#EFA14C" : "#fff",
+            })}
+          >
+            <p> Contact Us</p>
+          </NavLink>
+          <NavLink
+            className="link"
+            to="/blogs"
+            style={({ isActive }) => ({
+              color: isActive ? "#EFA14C" : "#fff",
+            })}
+          >
+            <p> Blogs</p>
+          </NavLink>
+        </div>
+        <button className="navButton">Let's Talk</button>
       </div>
-      <button className="navButton">Let's Talk</button>
+      {/* <Routes>
+                <Landing/>
+                <AboutUs/>
+                <Route path="/services" component={Services}/>
+                <Workcase/>
+                <Choose/>
+                <Feedback/>
+                <Connect/>
+                <Blog/>
+                <Subscribe/>
+                <Footer/>
+    </Routes> */}
     </div>
   );
 }

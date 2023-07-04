@@ -1,0 +1,22 @@
+.aboutUsPage{
+    background-image: url("../../assets/aboutuspagebg.jpg");
+    padding-top:98px;
+    color: white;
+    height: 80vh;
+}
+
+.aboutUsPage .heading{
+    padding-top: 20vh;
+    font-size: 40px;
+    font-weight: 900;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutUsPage .content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
