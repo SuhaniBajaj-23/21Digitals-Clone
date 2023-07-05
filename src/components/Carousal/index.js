@@ -1,6 +1,6 @@
 import "./index.css"
 
-function Carousal(props){
+const Carousal = (props) => {
     return(
         <div className="carousal">
             <div className="image">

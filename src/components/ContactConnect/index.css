@@ -1,0 +1,29 @@
+.contactconnect{
+    background-image: url("../../assets/aboutuspagebg.jpg");
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.contactconnect .heading{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contactconnect .content{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.contactconnect .socials{
+    display: flex;
+    padding-top: 20px;
+    width: 30%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.socials .vertical{
+    border-right: 1px solid rgba(255, 255, 255, 0.697);
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-function ServiceCard(props){
+const ServiceCard = (props)=>{
     return(
         <div className="card">
             <div className="icons">
@@ -12,7 +12,8 @@ function ServiceCard(props){
             <div className="description">
                 {props.description}
             </div>
-            <button>Read More</button>
+            <button onClick={event=>
+            window.location.href="/"}>Read More</button>
         </div>
     );
 }

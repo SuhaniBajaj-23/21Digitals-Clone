@@ -1,6 +1,6 @@
 import "./index.css";
 
-function Join(){
+const Join = () =>{
     return(
         <div className="join">
             <div className="heading">

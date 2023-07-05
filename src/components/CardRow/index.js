@@ -6,7 +6,7 @@ import three from "../../assets/3.png";
 import four from "../../assets/4.png";
 import five from "../../assets/5.png";
 
-function CardRow(){
+const CardRow = () => {
     return(
         <div className="cardrow">
             <Card3D icon={one} name="One to One Discussion" content="Every Information and requirement has to be crystal clear."/>

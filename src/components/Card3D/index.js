@@ -1,6 +1,6 @@
 import "./index.css";
 
-function Card3D(props) {
+const Card3D = (props) => {
   return (
       <div class="flip-card">
         <div class="flip-card-inner">

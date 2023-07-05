@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-function Button(props){
+const Button =(props) =>{
     return(
         <div className="button">
             <div className="icon">

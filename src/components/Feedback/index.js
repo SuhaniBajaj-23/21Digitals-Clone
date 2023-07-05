@@ -5,7 +5,7 @@ import icon from "../../assets/feedback.jpg";
 // import logo from "../../assets/logo.png";
 
 
-function Feedback(){
+const Feedback = ()=>{
 
     const data =[<Carousal image={icon}  description="In Delhi, only 91 Digitals provide result-oriented digital marketing services. It was the first time I have seen such great results after working with several agencies and freelancers. In addition to redesigning our website, they were also able to resolve payment gateway issues and gain exceptional leads through paid campaigns. I look forward to achieving more milestones with you. Thanks!	" name="Elena Gilbert" designation="Founder"/>,
     <Carousal image={icon}  description="In Delhi, only 91 Digitals provide result-oriented digital marketing services. It was the first time I have seen such great results after working with several agencies and freelancers. In addition to redesigning our website, they were also able to resolve payment gateway issues and gain exceptional leads through paid campaigns. I look forward to achieving more milestones with you. Thanks!	" name="FLOYD STALLER" designation="CO-FOUNDER"/>,

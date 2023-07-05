@@ -7,7 +7,7 @@ import linkedin from "../../assets/linkedin.jpg"
 import twitter from "../../assets/twitter.jpg"
 
 
-function Footer(){
+const Footer=()=>{
     return(
         <div className="footer">
             <div className="upper">
@@ -15,12 +15,11 @@ function Footer(){
                 <img src={logo} alt="" className="logo"/>
                 <p>A Full Stack Creative Digital Marketing Agency For Your Business - Simple | Minimal | Effective</p>
                 <div className="socials">
-                    <img src={yt} alt=""/>
-                    <img src={insta} alt=""/>
-                    <img src={linkedin} alt=""/>
-                    <img src={twitter} alt=""/>
-                    <img src={behance} alt=""/>
-
+                    <a href="https://www.youtube.com/channel/UCD9sYmrqyaoflSkvvfEzD3Q"><img src={yt} alt=""/></a>
+                    <a href="https://www.instagram.com/91.digitals/"><img src={insta} alt=""/></a>
+                    <a href="https://www.linkedin.com/company/91digitals/"><img src={linkedin} alt=""/></a>
+                    <a href="https://twitter.com/91_digitals"><img src={twitter} alt=""/></a>
+                    <a href="https://www.behance.net/91digitals"><img src={behance} alt=""/></a>
                 </div>
 
                 </div>

@@ -3,7 +3,7 @@ import "./index.css";
 import Button from "../Button";
 import {AiFillPlayCircle} from "react-icons/ai";
 
-function Landing() {
+const Landing = () => {
   return (
     <div className="landing">
         <div className="whole">
@@ -15,7 +15,8 @@ function Landing() {
             </div>
             <div className="buttons">
                 <Button color='#EFA14C' name="Get Started"/>
-                <Button icon=<AiFillPlayCircle/> name="Show Reel"/>
+                <a href="https://www.youtube.com/shorts/6iUknqC7E3k">
+                <Button icon=<AiFillPlayCircle/> name="Show Reel" /></a>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import "./index.css";
 
-function Card(props){
+const Card = (props) => {
     return(
         <div className="blogCard">
             <div className="image">
@@ -13,7 +13,8 @@ function Card(props){
                 <div className="description">
                     {props.description}
                 </div>
-                <button>Read Post</button>
+                <button onClick={event=>
+                window.location.href="/"}>Read Post</button>
             </div>
         </div>
     );

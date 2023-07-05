@@ -7,7 +7,7 @@ import five from "../../assets/VirgiNMOBILE.jpg"
 import six from "../../assets/dailies.jpg"
 import seven from "../../assets/peuga.jpg"
 
-function Sponser(){
+const Sponser=()=>{
     return(
         <div className="sponsers">
             <div className="images">

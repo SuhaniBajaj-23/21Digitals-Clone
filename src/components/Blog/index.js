@@ -4,7 +4,7 @@ import imageone from "../../assets/blog1.jpg"
 import imagetwo from "../../assets/blog2.jpg"
 
 
-function Blog(){
+const Blog = () =>{
     return(
         <div className="blog">
             <div className="head">
@@ -15,6 +15,7 @@ function Blog(){
             </div>
             <div className="main">
                 <div className="left">
+                <div className="leftbgimage">
                     <button>Motion Graphics</button>
                     <div className="tips">
                     5 Easy Tips to Optimize Your Graphic Design Workflow
@@ -22,6 +23,8 @@ function Blog(){
                     <div className="intro">
                     Introduction The importance of optimizing your graphic design workflow. Graphic design is a critical part of any company’s branding and marketing efforts. …
                     </div>
+                </div>
+                    
                 </div>
                 <div className="right">
                     <Card image={imageone} name="Web Development" description="Effective Ways to Increase your Website Traffic"/>

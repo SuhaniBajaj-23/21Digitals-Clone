@@ -1,6 +1,5 @@
-
-
 .navBar{
+    overflow: hidden;
     background-color: #111E47;
     height: 98px;
     display: flex;
@@ -9,6 +8,7 @@
     position: fixed;
     text-decoration: none;
     font-size: 18px;
+    z-index: 10;
 }
 
 .logo{
@@ -20,6 +20,20 @@
     padding-left: 3vw;
 } 
 
+.navBar a{
+    color: white;
+}
+
+.nav-links .link{
+    /* float: right; */
+  display: flex;
+  /* text-align: center; */
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
 .nav-links{
     display: flex;
     justify-content: space-between;
@@ -27,17 +41,26 @@
     width: 55%;
 }
 
+.nav-links .link:hover {
+    border-bottom: 3px solid #EFA14C;
+  }
+  
+  .nav-links .link.active {
+    border-bottom: 3px solid #EFA14C;
+  }
+
 .link:hover{
-    color: #EFA14C;
+    color: #EFA14C !important;
 }
 
+/* 
 .link::before{
     transition: 300ms;
     height: 5px;
     content: "";
     position: absolute;
     background-color: #EFA14C;
-}
+} */
 
 .navButton{
     margin: 3vw;
@@ -50,12 +73,12 @@
     padding: 10px 20px 10px 20px;
 }
 
-.link::before {
+/* .link::before {
     height: 0%;
     width: 100%;
     bottom: 0px;
   }
-   
- .link:hover::before {
+    */
+ /* .link:hover::before {
     height: 5px;
-  }
+  } */

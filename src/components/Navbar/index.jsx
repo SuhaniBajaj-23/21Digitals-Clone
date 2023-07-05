@@ -1,35 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import React from "react";
-import { Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import logo from "../../assets/logo.png";
-import Landing from "../Landing";
-import AboutUs from "../AboutUs";
-import Services from "../Services";
-import Workcase from "../Workcase";
-import Choose from "../Choose";
-import Feedback from "../Feedback";
-import Connect from "../Connect";
-import Blog from "../Blog";
-import Subscribe from "../Subscribe";
-import Footer from "..//Footer";
 
-// const Navbar = () =>{
-//     <div className='navBar'>
-//         <Link className='logo' to='/'>
-//             <img src="../../assets/logo.png" alt=""/>
-//         </Link>
-//         <div className='nav-links' >
-//                 <NavLink exact activeStyle={{color: "#7716A5"}}  className="link" to="/"><p> Home</p></NavLink>
-//                 <NavLink activeStyle={{color: "#7716A5"}}  className="link" to="/"> <p>About Us</p></NavLink>
-//                 <NavLink activeStyle={{color: "#7716A5"}}  className="link" to="/"><p> Services</p></NavLink>
-//                 <NavLink activeStyle={{color: "#7716A5"}}  className="link" to="/"><p> Contact Us</p></NavLink>
-//                 <NavLink activeStyle={{color: "#7716A5"}}  className="link" to="/"><p> Blogs</p></NavLink>
-//         </div>
-//     </div>
-// }
 
-function Navbar() {
+
+const Navbar=()=> {
   return (
     // <Router>
     <div className="page">
@@ -58,7 +34,7 @@ function Navbar() {
             <p>About Us</p>
           </NavLink>
 
-          <a href="#services" className="link">
+          <a href="/#services" className="link">
             Services
           </a>
           <NavLink
@@ -79,21 +55,12 @@ function Navbar() {
           >
             <p> Blogs</p>
           </NavLink>
+          
         </div>
-        <button className="navButton">Let's Talk</button>
+        <button className="navButton" onClick={
+          event=> window.location.href="/contact"
+        }>Let's Talk</button>
       </div>
-      {/* <Routes>
-                <Landing/>
-                <AboutUs/>
-                <Route path="/services" component={Services}/>
-                <Workcase/>
-                <Choose/>
-                <Feedback/>
-                <Connect/>
-                <Blog/>
-                <Subscribe/>
-                <Footer/>
-    </Routes> */}
     </div>
   );
 }

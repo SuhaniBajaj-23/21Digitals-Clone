@@ -1,6 +1,6 @@
 import "./index.css"
 
-function Connect(){
+const Connect = () =>{
     return(
         <div className="connect">
             <div className="head">
@@ -9,7 +9,9 @@ function Connect(){
             <div className="heading">
             We are the problem solvers and we help businesses like yours succeed every day as creative analytics-oriented partners.
             </div>
-            <button>Get in Touch</button>
+            <button onClick={event=>
+            window.location.href='/contact'
+            }>Get in Touch</button>
         </div>
     );
 }

@@ -13,7 +13,7 @@ import icon2 from "../../assets/download (2).png";
 import icon3 from "../../assets/download (1).png";
 import icon4 from "../../assets/download.png";
 
-function Result(){
+const Result=()=>{
     return(
         <div className="result">
             <div className="left">

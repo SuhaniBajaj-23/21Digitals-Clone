@@ -25,5 +25,9 @@
 
 .landing .buttons{
     display: inline-flex;
-    padding-top:5vh ;
+    padding-top: 30px;
+}
+
+.landing .buttons a{
+    color: white;
 }

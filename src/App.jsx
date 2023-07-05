@@ -19,9 +19,12 @@ import Sponsers from './components/Sponsers';
 import Result from './components/Result';
 import Join from './components/Join';
 import Form from './components/Form';
+import ContactConnect from "./components/ContactConnect";
+import Map from "./components/Map";
+import Creative from "./components/Creative";
+import Filter from "./components/Filter";
 
-
-function App() {
+const App=()=> {
     return (
         <>
           <Routes>
@@ -58,10 +61,22 @@ function App() {
               <>
               <Navbar/>
               <Form/>
+              <ContactConnect/>
+              <Map/>
               <Footer/>
               </>
             }
             ></Route>
+            <Route exact path="/blogs" element={
+              <>
+              <Navbar/>
+              <Creative/>
+              <Filter/>
+              <Footer/>
+              </>
+            }
+            ></Route>
+            
           </Routes>
         </>
       );

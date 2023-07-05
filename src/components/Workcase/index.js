@@ -1,6 +1,6 @@
 import "./index.css"
 
-function Workcase (){
+const Workcase= ()=>{
     return(
      <div className="workcase">
         <div className="head">

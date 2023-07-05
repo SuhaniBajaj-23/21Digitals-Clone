@@ -1,6 +1,6 @@
 import "./index.css"
 
-function ServiceItem(props){
+const ServiceItem = (props)=>{
     return(
         <div className="serviceitem">
             <div className="icon">

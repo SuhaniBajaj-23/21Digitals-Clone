@@ -1,6 +1,6 @@
 import "./index.css"
 import RightAboutUs from "../RightAboutUs";
-function AboutUs (){
+const AboutUs = () =>{
     return(
         <div className="about">
             <div className="left">

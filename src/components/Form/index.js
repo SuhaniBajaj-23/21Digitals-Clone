@@ -1,6 +1,6 @@
 import "./index.css"
 
-function Form(){
+const Form = ()=>{
     return(
         <div className="form">
             <div className="left">
@@ -23,24 +23,30 @@ function Form(){
             <div className="right">
             <div className="formhead">
             Let's
-Work Together
+            <br/> Work Together
             </div>
                 <form>
-                    <label>Your name*
+                <div className="fields">
+                    <label>Your name*</label>
                         <input type="text" />
-                    </label>
-                    <label>Your email*
+                </div>
+                <div className="fields">
+                    <label>Your email*</label>
                         <input type="text" />
-                    </label>
-                    <label>Your Number(optional)
+                </div>
+                <div className="fields">
+                    <label>Your Number(optional)</label>
                         <input type="text" />
-                    </label>
-                    <label>Company*
+                </div>
+                <div className="fields">
+                    <label>Company*</label>
                         <input type="text" />
-                    </label>
-                    <label>Your message*
+                </div>
+                <div className="fields">
+                    <label>Your message*</label>
                         <input type="text" />
-                    </label>
+                </div>
+
                     <button>Submit</button>
                 </form>
             </div>

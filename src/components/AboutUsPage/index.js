@@ -1,6 +1,6 @@
 import "./index.css";
 
-function AboutUsPage(){
+const AboutUsPage = () =>{
     return(
         <div className="aboutUsPage">
             <div className="heading">

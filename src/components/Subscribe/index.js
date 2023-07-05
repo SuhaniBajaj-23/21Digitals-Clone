@@ -1,7 +1,7 @@
 import "./index.css"
 import mailBox from "../../assets/subscribe.jpg"
 
-function Subscribe(){
+const Subscribe=()=>{
     return(
         <div className="subscribe">
             <div className="left">

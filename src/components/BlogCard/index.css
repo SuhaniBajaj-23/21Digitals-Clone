@@ -1,0 +1,29 @@
+.blogcard{
+    background-image: url("../../assets/blogbg.jpg");
+    background-size: cover;
+    color: white;
+    height: 35vh;
+    width: 25vw;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin: 5px;
+
+}
+
+.blogcard .name{
+    width: 90%;
+    padding-top: 15vh;
+    font-size: 23px;
+}
+
+.blogcard .content{
+    display: flex;
+}
+
+.blogcard .date{
+    padding: 5px;
+}
+
+.blogcard .comments{
+    padding: 5px;
+}

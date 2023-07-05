@@ -1,11 +1,11 @@
 import React from "react";
 import "./index.css";
 
-function Reason(props){
+const Reason=(props)=>{
     return(
         <div className="reason">
             <div className="icon">
-                {props.icon}
+                <img src={props.icon} alt=""></img>
             </div>
             <div className="name">
                 {props.name}

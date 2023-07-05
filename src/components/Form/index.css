@@ -1,19 +1,78 @@
 .form{
     background-image: url("../../assets/choosebg.jpg");
-    padding-top: 98px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 30px 98px 30px;
     display: flex;
+    align-items: center;
+
 }
 
 .form .heading{
     color: #EFA14C;
 }
 
+.form .left .head{
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 20px;
+}
 
 .form .left{
     color: white;
     width: 50%;
+    padding: 10vh;
+}
+
+.form .left .content{
+    padding-top: 20px;
+}
+
+.form .left .hours{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .form .right{
-    width: 50%;
+    margin-left: 10vh;
+    padding: 5vh 10vh;
+    border-radius: 20px;
+    width: 30%;
+    background-color: white;
+}
+
+.right .formhead{
+    font-size: 30px;
+    color: #111E47;
+    font-weight: 900;
+}
+
+.form .right .fields{
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.form .right .fields input{
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid rgba(209, 207, 207, 0.614);
+}
+
+.form button{
+    margin-top: 20px;
+    background-color: transparent ;
+    font-size: 15px;
+    color: #111E47 ;
+    border: 2px solid #111E47;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.form button:hover{
+    background-color: #EFA14C;
+    border: 2px solid #EFA14C;
 }

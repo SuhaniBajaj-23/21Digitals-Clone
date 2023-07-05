@@ -1,6 +1,6 @@
 import "./index.css"
 
-function MovingBox(props){
+const MovingBox=(props)=>{
     return(
         <div className="movingbox">
             <div className="icon">

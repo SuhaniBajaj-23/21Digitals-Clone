@@ -1,6 +1,6 @@
 import "./index.css"
 
-function WhoAreWe(){
+const WhoAreWe=()=>{
     return(
         <div className="whoarewe">
             <div className="upper">

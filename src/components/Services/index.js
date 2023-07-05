@@ -1,10 +1,10 @@
 import "./index.css"
 import ServiceCard from "../ServiceCard";
 import {BsVectorPen,BsChatSquareHeartFill} from "react-icons/bs";
-import {MdOutlineAutoAwesomeMotion,MdOutlineBrowserUpdated} from "react-icons/md"
+import {MdOutlineAutoAwesomeMotion} from "react-icons/md"
 import {FaPhotoVideo,FaFileCode} from "react-icons/fa";
 
-function Services (){
+const Services = ()=>{
     return(
         <section id="services">
      <div className="services" >
